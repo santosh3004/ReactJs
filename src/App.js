@@ -31,7 +31,7 @@ function App() {
   const fetchTasks=async()=>{
       const res=await fetch('https://api-tasktracker.santosh-subedi.com.np/api/tasks')
       const data=await res.json();
-      console.log(data);
+      // console.log(data);
       return data;
     }
 
